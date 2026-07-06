@@ -23,10 +23,14 @@
 - [x] Убрана кнопка «Обсудить проект» из hero.
 - [x] Медузы: убраны рисованные canvas-спрайты. Фон — реальные фото-медузы с CSS-анимацией «плавания» (дрейф + пульсация купола + лёгкое вращение, 30с, поверх Ken Burns; base scale >1). На canvas остался только мягкий свет спор. `prefers-reduced-motion` выключает анимации.
 
+## Хостинг (готово)
+- [x] `index_2.html` → `index.html`.
+- [x] GitHub Pages: репо `falendanil92-eng/portfolio` (публичный), ветка `main`, корень.
+- **URL сайта:** https://falendanil92-eng.github.io/portfolio/
+- **Правка:** менять файлы локально → `git add -A && git commit -m "..." && git push` (сайт обновляется ~1 мин). Или прямо в вебе на github.com/falendanil92-eng/portfolio.
+
 ## Что осталось (TODO)
 - [ ] **Formspree endpoint** — заменить `YOUR_FORM_ID` в `FORM_ENDPOINT` на реальный. Без этого заявки не доходят.
-- [ ] Переименовать `index_2.html` → `index.html` для хостинга.
-- [ ] Разместить на бесплатном хостинге (GitHub Pages / Netlify / Cloudflare Pages).
 - [ ] Проверить фон-фото Unsplash — внешние ссылки, могут отвалиться. Рассмотреть локальные копии.
 - [ ] (Опц.) свой домен.
 
