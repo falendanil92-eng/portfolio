@@ -30,7 +30,7 @@
 - **Правка:** менять файлы локально → `git add -A && git commit -m "..." && git push` (сайт обновляется ~1 мин). Или прямо в вебе на github.com/falendanil92-eng/portfolio.
 
 ## Что осталось (TODO)
-- [ ] **Formspree endpoint** — заменить `YOUR_FORM_ID` в `FORM_ENDPOINT` на реальный. Без этого заявки не доходят.
+- [x] **Formspree endpoint** подключён: `https://formspree.io/f/xqevjpqn` (обе формы). Первая заявка требует одноразового подтверждения в письме от Formspree.
 - [ ] Проверить фон-фото Unsplash — внешние ссылки, могут отвалиться. Рассмотреть локальные копии.
 - [ ] (Опц.) свой домен.
 
